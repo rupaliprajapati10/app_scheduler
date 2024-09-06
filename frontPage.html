@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- -------Navbar------ -->
+    <nav class="flex_div">
+        <div class="left_side flex_div">
+            <ul>
+            <a href="#scheduler"><li>Scheduler</li></a>
+        </ul>
+        </div>
+
+        <div class="right_side flex_div">
+            <ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#admin"><li>Record</li></a>
+        </ul>
+        </div>
+    </nav>
+
+<section id="scheduler">
+    <div>
+        <div>
+            <h3>Welcome to Scheduler</h3>
+        </div>
+
+     <div class="email_container">
+     <input type="email" id="email" placeholder="Enter the E-mail" required>
+     </div>
+
+     <div class="button_container">
+     <button type="submit" onclick="next_step()">Next</button>
+     <button type="reset">Cancle</button>
+     </div>
+    </div>
+</section>
+
+
+<!-- Next step to fill the scheduling time form-->
+
+
+    <div id="formId" class="formClass" style="display: none;">
+        <h3>Schedule the Time</h3>
+        <div>
+        <label for="dateTime">Start Date and Time:</label>
+        <input type="datetime-local" name="dateTime" id="sdateTime">
+        </div>
+
+        <div>
+        <label for="dateTime">End Date and Time:</label>
+        <input type="datetime-local" name="dateTime" id="edateTime">
+        </div>
+
+        <div>
+        <button type="submit" onclick="submitFormData()">Done</button>
+        <button type="reset">Cancle</button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+<div>
+    <section id="home">Home</section>
+</div>
+
+
+
+
+
+<div>
+    <section ></section>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

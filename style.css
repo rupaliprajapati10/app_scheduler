@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #959393;
+    padding-top: 70px ;
+}
+
+
+/* --- Navbar --- */
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: space-between;
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: antiquewhite;
+    top: 0;
+    z-index: 9999;
+}
+
+
+
+nav div li{
+    display: inline;
+    color: black;
+    font-size: large;
+
+}
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+  }
+
+.left_side li{
+    width: 35px;
+    margin-left: 12px;
+    
+}
+
+.right_side li{
+    width: 40px;
+    margin-right: 12px;
+}
+
+.flex_div{
+    display: flex;
+    text-align: center;
+
+}
+
+
+/* welcome page */
+
+#scheduler{
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+#scheduler h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.email_container{
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;  
+}
+
+.email_container input{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.button_container{
+    margin: 5px;
+    display: flex;
+    justify-content:center; 
+}
+
+.button_container button{
+ margin: 10px 20px;
+ padding: 8px;
+}
+
+
+/* styling "schedule time and date"  */
+
+h3{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: large;
+    font-family: cursive;
+}
+
+.formClass{
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.formClass div{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.formClass div label{
+    font-size: larger;
+}
+
+.formClass div input{
+    width: 500px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.formClass button{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+#home{
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+/* ----------hover part--------*/
+button:hover{
+    background-color: #6d6d6d;
+    color: aliceblue;
+}
+
+a:hover{
+    background: #959393;
+}
